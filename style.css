@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://images.unsplash.com/photo-1518770660439-4636190af475);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container, .container-logout {
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    padding: 40px;
+}
+
+.login-email .login-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #E7E7E7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.login-email .input-group input:focus, .login-email .input-group input:valid {
+    border-color: #a29bfe;
+}
+
+.login-email .input-group .btn {
+    width: 100%;
+    height: 100%;
+    background: #6c5ce7;
+    border: 2px solid #6c5ce7;
+    color: #FFF;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.login-email .input-group .btn:hover {
+    background: #a29bfe;
+    border-color: #a29bfe;
+}
+
+.login-register-text {
+    color: #333;
+    font-weight: 650;
+}
+
+.login-register-text a {
+    text-decoration: none;
+    color: #6c5ce7;
+}
